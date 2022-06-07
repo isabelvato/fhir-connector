@@ -76,11 +76,15 @@ Usage
 Once the container is created and running, through the command terminal returns a localhost address where our service is up. The format will be as follows http://127.0.0.x:5000, where the 5000 indicates the port.
 
 
-![Service fhir connector](./img/fhir.png)
+![Service fhir connector](./img/fhir.png )
 
 When we open it in the browser we will be able to observe a json in FHIR format, corresponding to a _Patient_. 
 
+In this case, the application _app.py_ has made: 
 
+1. First a GET method from the HAPI server obtaining an example of a patient from the repository. 
+   
+2. Second a POST method (with the information obtained in the GET) to the FHIR server deployed for the Gravitate Health project. 
 
 Known issues and limitations
 ----------------------------
@@ -100,6 +104,10 @@ Authors and history
 ---------------------------
 The autors of this repository are: 
 - Alvaro Belmar
-- Guillermo Mejias
-- Oscar Ansotegui
+- Guillermo Mejías
+- Oscar Ansótegui
 - Isabel Varona
+
+11. Acknowledgments
+    LINK AL SERVIDOR HAPI
+    LINK AL REPOSITORIO DEL SERVIDOR
