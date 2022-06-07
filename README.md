@@ -76,7 +76,7 @@ Usage
 Once the container is created and running, through the command terminal returns a localhost address where our service is up. The format will be as follows http://127.0.0.x:5000, where the 5000 indicates the port.
 
 
-![Service fhir connector](./img/fhit.png)
+![Service fhir connector](./img/fhir.png)
 
 When we open it in the browser we will be able to observe a json in FHIR format, corresponding to a _Patient_. 
 
