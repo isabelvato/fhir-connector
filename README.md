@@ -23,6 +23,7 @@ Table of contents
   - [Contributing](#contributing)
   - [License](#license)
   - [Authors and history](#authors-and-history)
+  - [Acknowledgments](#acknowledgments)
 
 
 Introduction
@@ -108,6 +109,7 @@ The autors of this repository are:
 - Oscar Ansótegui
 - Isabel Varona
 
-11. Acknowledgments
+Acknowledgments
+---------------------------
     LINK AL SERVIDOR HAPI
     LINK AL REPOSITORIO DEL SERVIDOR
