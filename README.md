@@ -5,7 +5,6 @@ FHIR-CONNECTOR
 [![Latest release](https://img.shields.io/github/v/release/mhucka/readmine.svg&color=b44e88)](https://github.com/mhucka/readmine/releases)
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![Build Status](https://travis-ci.org/anfederico/clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/clairvoyant)
-[![Tests](https://img.shields.io/jenkins/tests?compact_message)]
 [![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -77,8 +76,7 @@ Usage
 Once the container is created and running, through the command terminal returns a localhost address where our service is up. The format will be as follows http://127.0.0.x:5000, where the 5000 indicates the port.
 
 
-
-
+![Service fhir connector](./img/fhit.png)
 
 When we open it in the browser we will be able to observe a json in FHIR format, corresponding to a _Patient_. 
 
