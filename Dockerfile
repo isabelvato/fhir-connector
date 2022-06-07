@@ -1,12 +1,18 @@
-FROM python:3.8-slim-buster
+FROM  python:3.8.3-alpine
 
-WORKDIR /app
+RUN pip3 install --upgrade pip
 
-COPY requirements.txt requirements.txt
+# Set to a non-root built-in user `fhir`
+RUN adduser -D myuser
+USER myuser
+WORKDIR /home/myuser
 
-RUN pip3 install -r requirements.txt
+COPY --chown=myuser:myuser requirements.txt requirements.txt
+RUN pip3 install --user -r requirements.txt
 
-COPY . .
+COPY --chown=myuser:myuser . .
+
+ENV PATH="/home/myuser/.local/bin:${PATH}"
 
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 
