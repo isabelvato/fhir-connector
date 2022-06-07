@@ -5,7 +5,7 @@ FHIR-CONNECTOR
 [![Latest release](https://img.shields.io/github/v/release/mhucka/readmine.svg&color=b44e88)](https://github.com/mhucka/readmine/releases)
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![Build Status](https://travis-ci.org/anfederico/clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/clairvoyant)
-[![Tests](https://img.shields.io/jenkins/tests?compact_message)]()
+[![Tests](https://img.shields.io/jenkins/tests?compact_message)]
 [![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/MIT)
 
 

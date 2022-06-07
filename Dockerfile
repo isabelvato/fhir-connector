@@ -3,7 +3,7 @@ FROM  python:3.8.3-alpine
 RUN pip3 install --upgrade pip
 
 # Set to a non-root built-in user `fhir`
-RUN adduser -D myuser
+RUN adduser -D myuser 
 USER myuser
 WORKDIR /home/myuser
 
