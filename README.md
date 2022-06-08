@@ -111,5 +111,5 @@ The autors of this repository are:
 
 Acknowledgments
 ---------------------------
-    LINK AL SERVIDOR HAPI
-    LINK AL REPOSITORIO DEL SERVIDOR
+- [HAPI FHIR](https://hapi.fhir.org/)
+- [FHIR SERVER REPOSITORY](https://github.com/hapifhir/hapi-fhir-jpaserver-starter)
