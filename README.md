@@ -5,7 +5,7 @@ FHIR-CONNECTOR
 [![Latest release](https://img.shields.io/github/v/release/mhucka/readmine.svg&color=b44e88)](https://github.com/mhucka/readmine/releases)
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![Build Status](https://travis-ci.org/anfederico/clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/clairvoyant)
-[![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/Apache)
 
 
 Table of contents
@@ -99,7 +99,7 @@ Contributing
 
 License
 -------
-The license Apache Software License 2.0
+The license is Apache Software License 2.0
 
 Authors and history
 ---------------------------
